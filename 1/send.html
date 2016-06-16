@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            小助手送餐
+        </title>
+        <link rel="stylesheet" href="http://cdn.staticfile.org/pure/0.5.0/pure-min.css">
+        <link rel="stylesheet" href="http://cdn.staticfile.org/pure/0.5.0/grids-responsive-min.css">
+        <style type="text/css">
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1em;
+            padding-right: 1em;
+            max-width: 768px;
+        }
+        .footer {
+            font-size: 87.5%;
+            border-top: 1px solid #eee;
+            margin-top: 3.4286em;
+            padding: 1.1429em;
+            background: rgb(250, 250, 250);
+        }
+        .legal {
+            line-height: 1.6;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .legal-copyright {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        @media screen and (max-width: 567px) {
+            #cd,#dk,#dz,#tel,#extra {
+                width: 100%
+            }
+        }
+        .lalg {
+            text-align: left;
+        }
+        .calg {
+            text-align: center;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="content">
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1">
+                    <form class="pure-form pure-form-aligned">
+                        <fieldset>
+                            <legend>
+                                <h1>
+                                    小助手送餐申请
+                                </h1>
+                                <strong>
+                                    (请认真填写)
+                                </strong>
+                            </legend>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    学号
+                                </label>
+                                <input id="xh" class="pure-input-1-2" type="text" placeholder="你的学号">
+                                </input>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    密码
+                                </label>
+                                <input id="ma" class="pure-input-1-2" type="password" placeholder="校网的密码">
+                                </input>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    姓名
+                                </label>
+                                <input id="xm" class="pure-input-1-2" type="text" placeholder="">
+                                </input>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    手机号码
+                                </label>
+                                <input id="tel" class="pure-input-1-2" type="text" placeholder="你的手机号码（务必认真填写）">
+                                </input>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="dz">
+                                    学院
+                                </label>
+                                <select id="xy" class="pure-input-1-2">
+                                    <option df="1">选择所在学院</option>
+                                    <option>计算机工程学院</option>
+                                    <option>建筑工程学院</option>
+                                    <option>电子与自动化学院</option>
+                                    <option>艺术与传媒学院</option>
+                                    <option>外国语学院</option>
+                                    <option>管理学院</option>
+                                </select>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    专业
+                                </label>
+                                <input id="zy" class="pure-input-1-2" type="text" placeholder="如：软件工程">
+                                </input>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    班级
+                                </label>
+                                <input id="bj" class="pure-input-1-2" type="text" placeholder="如：xxxx班">
+                                </input>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="dz">
+                                    楼号
+                                </label>
+                                <select id="lh" class="pure-input-1-2">
+                                    <option df="1">选择所在寝室楼</option>
+                                    <option>2号楼</option>
+                                    <option>3号楼</option>
+                                    <option>4号楼</option>
+                                    <option>5号楼</option>
+                                    <option>6号楼东区</option>
+                                    <option>6号楼西区</option>
+                                    <option>7号楼东区</option>
+                                    <option>7号楼西区</option>
+                                    <option>8号楼</option>
+                                    <option>9号楼</option>
+                                    <option>10号楼</option>
+                                    <option>11号楼</option>
+                                </select>
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="tel">
+                                    寝室号
+                                </label>
+                                <input id="qs" class="pure-input-1-2" type="text" placeholder="如：xxx">
+                                </input>
+                            </div>
+                            <div class="pure-controls">
+                                <button id="submit" class="pure-button pure-button-primary">
+                                    提交申请
+                                </button>
+                                <h1 id="reply">
+                                </h1>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <div class="calg">
+                        <p class="lalg">
+                            note:
+                        </p>
+                        <p class="lalg">
+                            1.请一定认真填写每一项。
+                        </p>
+                        <p class="lalg">
+                            2.请一定认真对待每一次送餐。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="legal pure-g">
+                <div class="pure-u-1 pure-u-md-1">
+                    <p class="legal-copyright">
+                        &copy; 2015 城市学院小助手(微信:csxyxzs)! All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#submit").click(function() {
+                    var xh = $("#xh").val();
+                    var ma = $("#ma").val();
+                    var xm = $("#xm").val();
+                    var tel = $("#tel").val();
+                    var xy = trim($("#xy :selected").text());
+                    var zy = $("#zy").val();
+                    var bj = $("#bj").val();
+                    var lh = trim($("#lh :selected").text());
+                    var qs = $("#qs").val();
+                    if (trim(xh) != "") {
+                        if (trim(ma) != "") {
+                            if (trim(xm) != "") {
+                                if (trim(tel) != "") {
+                                    if (validTel(tel)) {
+                                        if ($("#xy option:selected[df!=1]").length > 0) {
+                                            if (trim(zy) != "") {
+                                                if (trim(bj) != "") {
+                                                    if ($("#lh option:selected[df!=1]").length > 0) {
+                                                        if (trim(qs) != "") {
+                                                            $.post("http://cityuit.sinaapp.com/sendapply.php", {
+                                                                xh: xh,
+                                                                ma: ma,
+                                                                xm: xm,
+                                                                tel: tel,
+                                                                xy: xy,
+                                                                zy: zy,
+                                                                bj: bj,
+                                                                lh: lh,
+                                                                qs: qs
+                                                            },
+                                                            function(data) {
+                                                                if (data == "success") {
+                                                                    $("#submit").hide();
+                                                                    $("#reply").html("申请成功,请一定认真对待每一次送餐。");
+                                                                } else if (data == "login failed") {
+                                                                    $("#reply").html("密码错误，再试一次。");
+                                                                } else {
+                                                                    $("#reply").html("内部问题，再试一次。");
+                                                                }
+                                                            });
+                                                            return false;
+                                                        } else {
+                                                            alert('请填写所在寝室');
+                                                            $("#qs").focus();
+                                                            return false;
+                                                        }
+                                                    } else {
+                                                        alert('请选择所在寝室楼');
+                                                        $("#lh").focus();
+                                                        return false;
+                                                    }
+                                                } else {
+                                                    alert('请填写所在班级');
+                                                    $("#bj").focus();
+                                                    return false;
+                                                }
+                                            } else {
+                                                alert('请填写专业');
+                                                $("#zy").focus();
+                                                return false;
+                                            }
+                                        } else {
+                                            alert('请选择所在学院');
+                                            $("#xy").focus();
+                                            return false;
+                                        }
+                                    } else {
+                                        alert('手机号码错误');
+                                        $("#tel").focus();
+                                        return false;
+                                    }
+                                } else {
+                                    alert('请填写手机号');
+                                    $("#tel").focus();
+                                    return false;
+                                }
+                            } else {
+                                alert('请填写姓名');
+                                $("#xm").focus();
+                                return false;
+                            }
+                        } else {
+                            alert('请填写密码');
+                            $("#ma").focus();
+                            return false;
+                        }
+                    } else {
+                        alert('请填写学号');
+                        $("#xh").focus();
+                        return false;
+                    }
+                });
+            });
+            function validTel(a) {
+                var b = /^[0-9]{11}$/;
+                if (b.test(a)) {
+                    return true
+                }
+                return false
+            }
+            function trim(s) {
+                var count = s.length;
+                var st = 0; // start  
+                var end = count - 1; // end  
+                if (s == "") return s;
+                while (st < count) {
+                    if (s.charAt(st) == " ") st++;
+                    else break;
+                }
+                while (end > st) {
+                    if (s.charAt(end) == " ") end--;
+                    else break;
+                }
+                return s.substring(st, end + 1);
+            }
+        </script>
+    </body>
+
+</html>

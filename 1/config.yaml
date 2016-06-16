@@ -1,0 +1,14 @@
+name: cityuit
+version: 1
+cron:
+    - description: chechk out timeout order
+        url: checkoutorder.php
+        schedule: */1 * * * * 
+	  
+    - description: clean order_meal
+        url: cleanorders.php
+        schedule: 0 0 * * * 
+
+    - description: delete empty room match everyday
+        url: emptyroom.php
+        schedule: 0 0 * * * 
