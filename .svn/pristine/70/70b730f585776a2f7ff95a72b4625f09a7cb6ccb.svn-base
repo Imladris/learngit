@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小助手送餐</title>
+<style type="text/css">
+body{
+        background:url(image/blue.jpg) repeat;
+        background-position:center;
+        outline-width: 0px;  
+        vertical-align: top;
+        background-size:cover;
+}
+.bigbox{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        max-width: 768px;
+}
+.logo{
+        width:900px;
+        height:45px;
+}
+.box{
+        width:400px;
+        height:650px;
+        border-style: solid;
+        border-color: #CCC;
+        border-width: 1px;
+        background-color:#FFF;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+}
+.three_{
+        width: 280px;
+        height: 45px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;  
+}
+.three{
+        width:80%;
+        height: 48px;
+        padding-left: 0px;
+        margin-top:10px;
+        height:36;
+        color:#ff9b01;
+        font-size:18px;
+}
+.a2{
+        display: block;
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #555;
+        font-size: 14px;
+        background-color: #CCC;
+        font-size: 18px;
+        width: 130px;
+        height: 35px;
+        border-color:#CCC;
+        border-style: solid;
+        padding: 0px;
+        float:left;
+}
+.num{
+        width:80%;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+        float:left;
+}
+
+#small_box{
+        width:448px;
+        height:300px;
+        float:left;
+}
+#num{
+        width:70%;
+        height:28px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.pass{
+        width:80%;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+        float:left;
+}
+#pass{
+        width:70%;
+        height:28px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+#book{
+        margin-left:-30px;
+}
+.name{
+        width:80%;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+        float:left;
+}
+#name{
+        width:70%;
+        height:30px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.tel{
+        width:80%;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+        float:left;
+}
+#tel{
+        width:70%;
+        height:30px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.college{
+        width:80%;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+        float:left;
+}
+#college{
+        width:70%;
+        height:33px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.major{
+        width:80%;
+        float:left;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+}
+
+#major{
+        width:70%;
+        height:30px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.class{
+        width:80%;
+        float:left;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+}
+#class{
+        width:70%;
+        height:30px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.bedroom{
+        width:80%;
+        float:left;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+}
+
+#bedroom{
+        width:70%;
+        height:30px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+.address{
+        width:80%;
+        float:left;
+        height:35px;
+        padding-top:20px;
+        padding-left:15px;
+}
+#address{
+        width:70%;
+        height:35px;
+        border-style:solid;
+        border-color:#09F;
+        font-family: cursive;
+        font-size: 20px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+}
+#register{
+        background-color: #38F;
+        font-size: 18px;
+        color: white;
+        width: 250px;
+        height: 40px;
+        border-color: #38F #38F #2E7AE5;
+        border-style: solid;
+        padding: 0px;
+        margin-top:20px;
+        margin-left:90px;
+        float:left;
+}
+#thin{
+        width:1px;
+        height:300px;
+        margin:0px;
+}
+
+#box1_and box2{
+        width:900px;
+        height: 300px;
+}
+i{
+        color:#F00;
+}
+</style>
+</head>
+<body>
+<div class="bigbox" align="center">
+        <div class="logo"></div>
+        <div class="box">
+
+                <div class="three">
+                        <ul class="three_">
+                                <h1>送餐申请</h1>
+                        </ul>
+                </div>
+
+                <!--内容框-->
+                <div id="box1_and box2">
+                        <div id="small_box">
+                                <form method="post" action="dealwithapply.php" >
+                                        <div class="num">
+                                                <i>*</i>
+                                                学号
+                                                <label for="num"></label>
+                                                <input type="text" id="num" name="username" placeholder="">
+                                        </div>
+
+                                        <div class="pass">
+                                                <i>*</i>
+                                                密码
+                                                <label for="pass"></label>
+                                                <input type="passwork" id="pass" name="password" placeholder="">
+                                        </div>
+
+                                        <div class="name">
+                                                <i>*</i>
+                                                姓名
+                                                <label for="name"></label>
+                                                <input type="text" id="name" name="name" placeholder="">
+                                        </div>
+
+
+                                        <div class="tel">
+                                                <i>*</i>
+                                                电话
+                                                <label for="tel"></label>
+                                                <input type="text" id="tel" name="phone" placeholder="">
+                                        </div>
+
+                                        <div class="college">
+                                                <i>*</i>
+                                                学院
+                                                <select id="college" name="facuilty">
+                                                        <option>请选择你所在的分院</option>
+                                                        <option>计算机工程学院</option>
+                                                        <option>建筑工程学院</option>
+                                                        <option>电子与自动化学院</option>
+                                                        <option>艺术与传媒学院</option>
+                                                        <option>外国语学院</option>
+                                                        <option>管理学院</option>
+                                                </select>
+                                        </div>
+                                        <!--<div class="smallbox2">-->
+                                        <div class="major">
+                                                <i>*</i>
+                                                专业
+                                                <label for="major"></label>
+                                                <input type="text" id="major" name="major" placeholder="">
+                                        </div>
+
+                                        <div class="class">
+                                                <i>*</i>
+                                                班级
+                                                <label for="class"></label>
+                                                <input type="text" id="class" name="class" placeholder="">
+                                        </div>
+
+
+                                        <!--地址-->
+                                        <div class="address">
+                                                <i>*</i>
+                                                楼号
+                                                <select id="address" name="address" >
+                                                        <option value="">请选择你所在的寝室楼</option>
+                                                        <option value="">二号楼</option>
+                                                        <option value="">三号楼</option>
+                                                        <option value="">四号楼</option>
+                                                        <option value="">五号楼</option>
+                                                        <option value="">六号楼东</option>
+                                                        <option value="">六号楼西</option>
+                                                        <option value="">七号楼东</option>
+                                                        <option value="">七号楼西</option>
+                                                        <option value="">八号楼</option>
+                                                        <option value="">九号楼</option>
+                                                        <option value="">十号楼</option>
+                                                        <option value="">十一号楼</option>
+                                                </select>
+                                        </div>
+
+
+                                        <div class="bedroom">
+                                                <i>*</i>
+                                                寝室
+                                                <label for="bedroom"></label>
+                                                <input type="text" id="bedroom" name="bedroom" placeholder="">
+                                        </div>
+                                        <input type="submit" value="申请" id="register" name="submit">
+                                </form>
+                        </div>
+                </div>
+        </div>
+</div>
+</div>
+
+</body>
+</html>
